@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ieb-sftp-dev"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-y1c0zaaip3v3"
+s3_prefix = "ieb-sftp-dev"
+region = "eu-central-1"
+profile = "gkk"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "CreateServer=\"true\" SecretsManagerRegion=\"eu-central-1\" TransferEndpointType=\"PUBLIC\" TransferSubnetIDs=\"\" TransferVPCID=\"\""

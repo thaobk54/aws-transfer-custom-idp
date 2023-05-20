@@ -1,0 +1,10 @@
+node_modules
+.aws-sam
+env.json
+.env
+.eslint-report.json
+dist/
+test-results
+
+src/lib
+src/tables
